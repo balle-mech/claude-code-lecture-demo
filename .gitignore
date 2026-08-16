@@ -2,3 +2,4 @@
 todo.md
 .env
 .playwright-mcp/
+.DS_Store
