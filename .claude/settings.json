@@ -1,11 +1,14 @@
 {
   "permissions": {
-    "allow": ["Bash(*)", "WebSearch"],
+    "allow": ["Bash(*)", "WebSearch", "mcp__playwright"],
     "deny": ["Read(.env)", "Read(.env.*)"]
   },
   "sandbox": {
     "enabled": true,
     "allowUnsandboxedCommands": false,
+    "network": {
+      "allowLocalBinding": true
+    },
     "filesystem": {
       "denyRead": [".env", ".env.*"]
     }
