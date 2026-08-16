@@ -7,7 +7,7 @@
     "enabled": true,
     "allowUnsandboxedCommands": false,
     "filesystem": {
-      "denyRead": []
+      "denyRead": [".env", ".env.*"]
     }
   },
   "agentPushNotifEnabled": true
