@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": ["Bash(*)", "WebSearch"],
+    "deny": ["Read(.env)", "Read(.env.*)"]
+  },
+  "sandbox": {
+    "enabled": true,
+    "allowUnsandboxedCommands": false,
+    "filesystem": {
+      "denyRead": []
+    }
+  },
+  "agentPushNotifEnabled": true
+}
